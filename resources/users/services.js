@@ -39,7 +39,8 @@ services.login = async ({username, password }, context)=>{
         const token = generateToken(user.dataValues)
         context.res.cookie('token', token, {
             httpOnly: true,
-            secure: false
+            secure: true,
+            sameSite: "None"
         });
         return  {token}
     } catch (error) {
