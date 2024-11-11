@@ -1,7 +1,7 @@
 # Task manager Backend Project
 
 ## Overview
-This project is the backend system for a Task Manager application. It is built using Express.js for the server, SQL for the database, Sequelize as the ORM, and GraphQL for the API. The database is hosted on AWS RDS.
+This project is the backend system for a Task Manager application. It is built using a Node.js framework called Express.js for the server, SQL for the database, Sequelize as the ORM, and GraphQL for the API. The database is hosted on AWS RDS.
 
 ## Getting Started
 
@@ -15,17 +15,18 @@ To install this project, follow these steps:
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/task-manager-backend.git
-Navigate to the project directory:
+   git clone https://github.com/Adri-El/task_manager_backend.git
 
-bash
-cd task-manager-backend
-Install the dependencies:
+2. Navigate to the project directory:
+  bash
+  cd task_manager_backend
 
-bash
-npm install
-Configuration
-Create a .env file in the root directory and add the following variables:
+3. Install the dependencies:
+  bash
+  npm install
+
+4. Configuration
+  Create a .env file in the root directory and add the following variables:
 
 plaintext
 jwtKey=your-jwt-key
@@ -34,6 +35,7 @@ databaseHost=your-database-host
 databaseDialect=your-database-dialect
 databasePassword=your-database-password
 databaseUsername=your-database-username
+
 ### Usage
 To use this project, follow these steps:
 
@@ -60,21 +62,10 @@ graphql
     status
   }
 }
-To create a new task:
 
-graphql
-mutation {
-  createTask(input: {
-    title: "New Task"
-    description: "Task description"
-  }) {
-    id
-    title
-    description
-  }
-}
+
 Deployment
-The backend is deployed on: render
+The backend is deployed on render.
 
 Contributing
 To contribute to this project, follow these steps:
