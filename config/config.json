@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "Champion96$%task%manager",
+    "database": "database-1",
+    "host": "database-1.cpq4uuy46bxa.eu-west-3.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "Champion96$%task%manager",
+    "database": "database-1",
+    "host": "database-1.cpq4uuy46bxa.eu-west-3.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "Champion96$%task%manager",
+    "database": "database-1",
+    "host": "database-1.cpq4uuy46bxa.eu-west-3.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
