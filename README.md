@@ -10,6 +10,10 @@ Before you begin, ensure you have met the following requirements:
 - You have installed [Node.js](https://nodejs.org/).
 - You have a Windows, Mac or Linux machine.
 
+## Online access
+You can access the backend project repository via this link: https://github.com/Adri-El/task_manager_backend.git
+
+
 ### Installation
 To install this project, follow these steps:
 
