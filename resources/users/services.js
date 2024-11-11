@@ -83,7 +83,8 @@ services.logout = async (context)=>{
 
         context.res.cookie('token', '', { 
             httpOnly: true, 
-            secure: false, 
+            secure: true,
+            sameSite: 'None', 
             expires: new Date(0) // Set the expiration date to a past date 
         }); 
 
