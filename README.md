@@ -1,7 +1,12 @@
 # Task manager Backend Project
 
 ## Overview
-This project is the backend system for a Task Manager application. It is built using a Node.js framework called Express.js for the server, SQL for the database, Sequelize as the ORM, and GraphQL for the API. The database is hosted on AWS RDS.
+This project is the backend system for a Task Manager application. It is built using:
+- Node.js framework called Express.js for the server, 
+- SQL for the database, The database is hosted on AWS RDS.
+- Sequelize as the ORM, 
+- GraphQL for the API. 
+- JWT for authentication
 
 ## Getting Started
 
